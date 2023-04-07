@@ -1,5 +1,5 @@
 
-FROM maven:3.5-jdk-11-alpine as builder
+FROM maven:3.5-openjdk-11-slim as builder
 
 # Copy local code to the container image.
 WORKDIR /app

@@ -29,6 +29,9 @@ import static com.berry.usercenter.constant.UserConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
+
+@CrossOrigin(origins = "http://47.115.209.47")
+
 public class UserController {
 
     @Resource
